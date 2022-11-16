@@ -10,7 +10,8 @@
     "coverage": "hardhat coverage",
     "size": "hardhat size-contracts",
     "prepare": "husky install",
-    "prettier": "prettier --write './'"
+    "prettier": "prettier --write './'",
+    "slither": "slither ."
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",

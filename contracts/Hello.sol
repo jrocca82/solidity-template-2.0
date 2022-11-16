@@ -7,7 +7,7 @@ pragma solidity ^0.8.9;
 contract Hello {
   string public message;
 
-  constructor(string memory _message) payable {
+  constructor(string memory _message) {
     message = _message;
   }
 
