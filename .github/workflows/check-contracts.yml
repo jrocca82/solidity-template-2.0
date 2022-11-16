@@ -2,7 +2,7 @@ name: Slither Analysis
 on:
   pull_request:
     paths:
-      - packages/contracts/contracts/**
+      - contracts/**
 jobs:
   analyze-contracts:
     runs-on: ubuntu-latest
